@@ -1,7 +1,9 @@
 
 
 
-
+#center-nav{
+    margin-left: 8.5em;
+}
 
 #h1-focus{
     font-size: 3.3em;
@@ -13,7 +15,6 @@
 
 #dots{
     color: #0d6efd;
-   
 }
 
 hr{
@@ -49,6 +50,7 @@ hr{
 
 #card1{
     height: 30vh;
+    padding-bottom: 4em;
 }
 
 /* CARD 2 */
@@ -56,7 +58,9 @@ hr{
     font-size: .7em;
 }
 
-
+#card2{
+    padding-bottom: 4em;
+}
 
 /* Footer */
 
