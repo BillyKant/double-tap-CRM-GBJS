@@ -17,6 +17,7 @@
         <div class="container" >
             <a class="navbar-brand pt-0" href="#">
                 <img src="./assets/Logo.png" alt="" width="130" height="35" class="d-inline-block align-text-top">
+            <div>
                 <nav class="nav d-flex justify-content-evenly ">
                     <a class="nav-link text-black mx-4"  aria-current="page" href="#">Home</a>
                     <a class="nav-link text-black mx-4" href="#">Features</a>
@@ -32,6 +33,7 @@
                         <a class="btn btn-primary btn-sm" href="#" role="button">Try it Free</a>
                     </li>
                 </ul>
+            </div>
         </div>
     </nav>
 
@@ -50,15 +52,17 @@
                             <a class="btn btn-primary btn-sm px-3" href="/sign_in/index.html" role="button">Sign Up Free </a>
                         </li>
                         <li class="nav-item p-3">
-                            <a class="btn btn-outline-primary btn-sm" href="#" role="button"><i class="fa-solid fa-comment-dots"></i>Chat with Us</a>
+                            <a class="btn btn-outline-primary btn-sm" href="#" role="button"><i class="fa-solid fa-comment-dots"></i>  Chat with Us</a>
                         </li>
                     </ul>
                     <p id="header-text" >Already using <strong>DoubleTap</strong>? <a href=""></a><strong> Sign In </strong></p>
                     <p>
                         <img src="/how_it_works/assets/Free -2.png" alt="">
-                        <i id="dots" class="fa-solid fa-circle-small"></i>  
+                        <!-- <i id="dots" class="fa-solid fa-circle icon"></i>  -->
+                        <strong> &#9679; </strong> 
                         <img src="/how_it_works/assets/Manage-Customers-in-Minutes-2.png" alt="">
-                        <i id="dots" class="fa-solid fa-circle-small"></i>  
+                        <!-- <i id="dots" class="fa-solid fa-circle"></i>  -->
+                        <strong> &#9679; </strong> 
                         <img src="/how_it_works/assets/Cancel-at-Anytime-2.png" alt="">
                     </p>
                 </div>
@@ -83,14 +87,14 @@
 
     <!-- CARD -->
 
-        <div id="card1" class="container card mb-3 text_cards" style="max-width: 800px">
-            <div class="row g-0">
-                <div class="col-md-4 d-flex align-content-center">
-                    <img src="/how_it_works/assets/Collect-info.png" class="img-fluid rounded-start" style="" alt="..." >
+        <div id="card1" class="container mb-3 text_cards" style="max-width: 800px ">
+            <div class="row g-0 h-100">
+                <div class="col-md-4 rounded-start border border-2 ">
+                    <img id="card-img1" src="/how_it_works/assets/Collect-info.png" class="img-fluid m-3 rounded-start bg-white" style="" alt="..." >
                 </div>
-                <div class="col-md-8 bg-primary">
-                    <div class="card-body  text-white">
-                        <h5 class="card-title my-4 text-center">Collect Useful Info</h5>
+                <div class="col-md-8 rounded-end bg-primary ">
+                    <div class="card-body text-white">
+                        <h5 class="card-title my-5 text-center">Collect Useful Info</h5>
                         <p id="card-p1" class="card-text">Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay you for your products and services.</p>
                         <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                     </div>
@@ -112,10 +116,10 @@
                 <div class="col-md-4">
                     <img src="/how_it_works/assets/Take-Payments.png" class="img-fluid rounded-start" style="" alt="...">
                 </div>
-                <div class="col-md-8 bg-primary">
+                <div class="col-md-8 rounded-end bg-primary">
                     <div class="card-body  text-white ">
                         <h5 class="card-title  text-center my-5">Get Paid Sooner</h5>
-                        <p id="card-p2" class="card-text mx-5 fs-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <p id="card-p2" class="card-text mx-5 ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                         <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                     </div>
                 </div>
@@ -132,18 +136,20 @@
             <h1 class=" text-center text-white">Try Double Tap Today!</h1>
             <h5 class="text-center text-white">Let's Get Started</h5>
             <ul class="nav nav-pills text-center">
-                <li class="nav-item p-3 col">
-                    <a id="green-button" class="btn btn-sm text-white px-5" href="/sign_in/index.html" role="button">Get Started </a>
+                <li id="footer-buttons" class="nav-item py-3 px-2 col">
+                    <a id="green-button" class="btn btn-sm text-white px-4" href="/sign_in/index.html" role="button">Get Started <i class="fa-solid fa-angles-right"></i></a>
                 </li>
-                <li class="nav-item p-3 col">
-                    <a class="btn btn-outline-primary bg-white btn-sm px-5" href="#" role="button"><i class="fa-solid fa-comment-dots"></i>Chat with Us</a>
+                <li id="footer-buttons" class="nav-item py-3 px-2 col">
+                    <a class="btn btn-outline-primary bg-white btn-sm px-4" href="#" role="button"><i class="fa-solid fa-comment-dots"></i> Chat with Us</a>
                 </li>
             </ul>
             <p class="text-center">
                 <img src="/how_it_works/assets/Free -1.png" alt="">
-                <i id="dots2" class="fa-solid fa-circle-small"></i>  
+                <!-- <i id="dots2" class="fa-solid fa-circle"></i>  -->
+                <strong id="dots2"> &#9679; </strong>  
                 <img src="/how_it_works/assets/Manage Customers in Minutes-1.png" alt="">
-                <i id="dots2" class="fa-solid fa-circle-small"></i>  
+                <!-- <i id="dots2" class="fa-solid fa-circle"></i>   -->
+                <strong id="dots2"> &#9679; </strong> 
                 <img src="/how_it_works/assets/Cancel at Anytime-1.png" alt="">
             </p>
         </div>
@@ -156,5 +162,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/8c02bf9807.js" crossorigin="anonymous"></script>
 </body>
 </html>
