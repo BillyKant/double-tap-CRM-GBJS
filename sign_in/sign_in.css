@@ -45,7 +45,7 @@
     color: white;
 }
 .lefg{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .tx{
     text-align: center;
@@ -62,4 +62,9 @@
 .ors{
     padding-top: 40px;
     font-size: 20px;
+}
+#ere{
+    background: url(/sign_in/Images/Group\ 15.png)no-repeat;
+    background-size: 500px;
+    background-position-y:300px ;
 }
