@@ -1,0 +1,65 @@
+.e{
+    width: 100%px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 11%;
+    margin-top: 50px;
+
+    height: 100%;
+}
+.user{
+    padding-top: 40px;
+    text-align: center;
+    background-image: url(Page-1.png);
+}
+.email{
+    padding-top: 40px;
+}
+.pass{
+    padding-top: 40px;
+}
+.r{
+    padding-right: 200px;
+    padding-bottom: 40px;
+    font-size: 75px;
+}
+#img{
+    margin: 10px;
+    margin-top: 70px;
+}
+.but{
+    font-size: 40px;
+}
+.left-text{
+    color: white;
+    margin-left: 170px;
+    margin-bottom: 20px;
+}
+.butl{
+    margin-left:290px;
+    margin-top: 50px ;
+    font-size: 20px;
+}
+.bottext{
+    margin-left: 100px ;
+    color: white;
+}
+.lefg{
+    margin-top: 100px;
+}
+.tx{
+    text-align: center;
+}
+.ig{
+    padding-bottom: 170px;
+    max-width: 100%;
+    size: 10;
+    max-height: 100%;
+}
+.wa{
+    margin: 20px;
+}
+.ors{
+    padding-top: 40px;
+    font-size: 20px;
+}
