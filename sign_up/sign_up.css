@@ -1,0 +1,18 @@
+.whole-page {
+    display: flex
+}
+
+.container {
+    margin-left: 150px;
+    margin-top: 250px;
+    max-width: 400px;
+}
+
+img {
+    margin-right: 150px;
+}
+
+.sign-up{
+color: blue;
+text-align: center;
+}
